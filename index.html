@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aboutme</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch&display=swap" rel="stylesheet">
+    <!-- <link href="css/hover-min.css" rel="stylesheet" media="all"> -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/09ac4049bb.js" crossorigin="anonymous"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <a class="navbar-initial" href="#"><i class="fas fa-h-square fa-2x"></i></a>
+        </div>
+
+        <ul class="navbar-list">
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="index.html">About</a></li>
+        </ul>
+
+        <ul class="navbar-icons">
+            <li class="hvr-icon-grow-rotate"><a href="https://github.com/Oliviapark113" target="_blank" title="olivia's github"><i class="fab fa-github-square hvr-icon"></i></li></a>
+            <li class="hvr-icon-grow-rotate"><a href="https://www.instagram.com/olivia.y.park/" target="_blank"title="olivia's Instagram"><i class="fab fa-instagram-square  hvr-icon"></i></a></li>
+            <li class="hvr-icon-grow-rotate"><a href="https://www.facebook.com/youngmee.shin.9" target="_blank" title="olivia's Facebook"><i class="fab fa-facebook-square hvr-icon "></i></a>
+            </li>
+           
+        </ul>
+        
+        <div class="navbar-toggleBtn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+    <div class="container container-fluid">
+        <div class="row">
+            <div class="col-lg-10 mainbox">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1>About Me</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 img column">
+                        <img src="Portfolio photos/MONO 1_1.jpg" alt="MyMono 1" class="AboutmeImage rounded-circle  shadow  bg-white rounded img-fluid">
+                    </div>
+                    <div class="col-lg-8 myBio1">
+                        My name is Olivia Park.
+                        I was a fashion designer for 15 years.
+                        I have enjoyed my career in fashion.
+                        During my 15 years of my fashion design career,
+                        I worked with a number of different compaies ranging from very large corporate compay to small
+                        boutique companies.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 myBio2">
+                        I love cooking, traveling and physical fitness<br>
+                        I love being in the Hamptons during the summer time.
+                        I enjoy watching netflix movies. <br>
+                        I collect fine wine.<br>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer"></div>
+    <script>
+        const toggleBtn = document.querySelector(".navbar-toggleBtn");
+        const list = document.querySelector(".navbar-list");
+        const icons = document.querySelector(".navbar-icons");
+
+        toggleBtn.addEventListener("click", function () {
+            list.classList.toggle("active");
+            icons.classList.toggle("active");
+        });
+    </script>
+
+
+</body>
+
+</html>
