@@ -73,21 +73,9 @@ and also CSS
 - Submit button size also grow when hover.
 <img width="712" alt="Screen Shot 2020-11-09 at 9 35 54 AM" src="https://user-images.githubusercontent.com/70460020/98559838-1859fa00-2275-11eb-809d-580e07de22c4.png">
 
-#### Wallpaper image.
+##### Media query.
 
-Wallpaper image changed ad screen size gets smaller.
+- change background color of contact-box as size smaller. 
 
-
-`@media screen and (max-width:992px){
-    .mainbox { background-image: url('Portfolio photos/ROSE.jpg');
-        background-repeat: repeat-y;
-         width:100%;
-        margin: 20px auto;}
-        }`
-
-<img width="682" alt="Screen Shot 2020-11-09 at 9 34 44 AM" src="https://user-images.githubusercontent.com/70460020/98561354-ce721380-2276-11eb-8b23-6b855d1828fa.png">
-
-<img width="497" alt="Screen Shot 2020-11-09 at 9 37 54 AM" src="https://user-images.githubusercontent.com/70460020/98561360-d03bd700-2276-11eb-9936-5f708c4cb8a2.png">
-
-<img width="496" alt="Screen Shot 2020-11-09 at 9 41 10 AM" src="https://user-images.githubusercontent.com/70460020/98561365-d0d46d80-2276-11eb-9507-00e529d13663.png">
+<img width="497" alt="Screen Shot 2020-11-11 at 11 51 17 AM" src="https://user-images.githubusercontent.com/70460020/98840106-635e4380-2414-11eb-936d-5ec56d3edd73.png">
   
