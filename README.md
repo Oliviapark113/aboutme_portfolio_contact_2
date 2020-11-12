@@ -77,5 +77,13 @@ and also CSS
 
 - change background color of contact-box as size smaller. 
 
-<img width="497" alt="Screen Shot 2020-11-11 at 11 51 17 AM" src="https://user-images.githubusercontent.com/70460020/98840106-635e4380-2414-11eb-936d-5ec56d3edd73.png">
+<img width="541" alt="Screen Shot 2020-11-12 at 4 46 11 PM" src="https://user-images.githubusercontent.com/70460020/99000260-f7103c80-2506-11eb-99ee-e223e5728e22.png">
+
+#### contact me
+ 
+- User click email icon at bottom of the footer ,email message automattically pop up. 
+
+<img width="858" alt="Screen Shot 2020-11-12 at 4 46 32 PM" src="https://user-images.githubusercontent.com/70460020/99000264-f8416980-2506-11eb-8551-5a1138aba562.png">
+
+
   
